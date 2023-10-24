@@ -1,6 +1,6 @@
 # krotka - jest niezmienialna (przydatne przy wspolnej pracy nad jednym zbiorem) nie ulega modyfikacji, moze byc jednoelementowa jak stala ale rownoczesnie pelni funkce zmiennej
 #zmienna - niezmienna moze byc traktowana jako zmienna
-#ciag wartosci podobny jak lista ktore nie zmianaja swoich wartosci nie dzialaja np sortowanie powoduje zmiane na liste
+#ciag wartosci podobny jak lista ktore nie zmieniaja swoich wartosci nie dzialaja np sortowanie powoduje zmiane na liste
 
 
 tupla = "Radek" # format tupla kiedy w wyniku sa okragle nawiasy i jest przecinek miedzy elementami
