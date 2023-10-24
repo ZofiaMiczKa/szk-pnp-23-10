@@ -19,7 +19,7 @@ while licznik < 10:
     licznik += 1
 
 lista = []
-lista2 =[]
+lista2 = []
 while True:
     wej = input("Podaj liczbe")
     if not wej.isnumeric():

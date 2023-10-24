@@ -127,7 +127,7 @@ for i, (l, w) in enumerate(zip(ludzie, wiek)):   #nawias oznacza grupowanie
 #wytlumaczenie co to oznacza na gorze
 for i, w in enumerate(zip(ludzie, wiek)):  # nawias oznacza grupowanie
     print(i, w)
-ind, we (0,('Radek',47))
+ind, we = (0,('Radek',47))
 print(ind)
 print(we)
 l,w = ('Radek', 47)

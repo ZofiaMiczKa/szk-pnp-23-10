@@ -31,7 +31,7 @@ print({value:key for key, value in dict1.items()})
 d2 ={}
 for key, value in dict1.items():
  #   d2.update({value: key})
-    d2[value]=key
- print(d2)
+    d2[value] = key
+print(d2)
 
 
