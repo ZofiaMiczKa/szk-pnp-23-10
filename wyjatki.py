@@ -11,19 +11,24 @@ while True:
     odp = input("Podaj opcje z menu")
     if odp == "5":
         break
-
-    a = float(input("Podaj pierwsza liczbe"))
-    b = float(input("Podaj druga liczbe"))
-    if odp == "1":
-        print(a+b)
-    elif odp == '2':
-        print(a-b)
-    elif odp == '3':
-        print(a*b)
-    elif odp == '4':
-        if b != 0:
-            print(a/b)
+    try:
+        a = float(input("Podaj pierwsza liczbe"))
+        b = float(input("Podaj druga liczbe"))
+        if odp == "1":
+            print(a+b)
+        elif odp == '2':
+            print(a-b)
+        elif odp == '3':
+            print(a*b)
+        elif odp == '4':
+            #if b != 0:
+                print(a/b)
+            #else:
+            #print("Nie dziel przez zero")
         else:
-            print("nie dziel przez zero")
-    else:
-        print("nie znam takiego zadania")
+            print("Nie znam takiego dzialania")
+
+    except ZeroDivisionError:
+        print("Nie dziel przez zero")
+    except ValueError
+        print("Blad wartosci")
