@@ -23,3 +23,5 @@ json_text = json.dumps(data)
 print(json_text)
 string_json = json.loads(json_text)
 print(string_json)
+
+#roznice "" null zamiast none
