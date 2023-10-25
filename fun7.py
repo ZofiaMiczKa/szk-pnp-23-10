@@ -14,7 +14,7 @@ def connect(**opcje):   # parametry slownikowe
 
 def connect_all(*args, **kwargs):
     print(args) # pozycyjny czyli bez nazwy zdefiniowanej np jako a, b lub c po * robia sie krotka
-    print(kwargs) # slownikowe czyli zdefiniowane po literce po ** robia sie slownikiem
+    print(kwargs) # slownikowe czyli zdefiniowane po literce w wywolaniu funkcji po ** robia sie slownikiem - po nazwie () ale nie opisane w definicji funkcji
 
 
 connect(a=6, b=8, c=9) #parametry nazwane
