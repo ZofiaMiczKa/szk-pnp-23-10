@@ -29,4 +29,10 @@ print(data.loc[1,"Amount"])   #konkretna komorka moze byc zdefiniowana  po nazwi
 #print("Wiersz", data.iloc[1]) # wiersz 2 trzeba podac indeks kolumny
 #print("Wiersz2:", data.loc[1]) # wiersz 2 moznqa podac po nazwie kolumny
 
+for i in data.iloc[1]: #wartosci z wiersza
+    print(i)
+
+for i, e in enumerate(data.iloc[1]): #wpisywanie wartosci z wiersza o indeksie 1 i wskazanie przypisanie
+    print(data.columns[i], ":", e)
+
 
