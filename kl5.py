@@ -37,5 +37,5 @@ poj.info()
 sam = Samochod("czerwony", "Maserati")
 sam.info()
 
-print(sam.__doc__)
-print(sam.info.__doc__)
+print(sam.__doc__) #wypisanie dokumentacji klasy
+print(sam.info.__doc__) #wypisanie dokumentacji metody w klasie
