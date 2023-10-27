@@ -42,3 +42,4 @@ ferrari.hamuj()
 ferrari.hamuj()
 ferrari.licznik()
 print(ferrari.__predkosc)
+
